@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 1.5rem;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.sedans {
+  grid-area: sedans;
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+  grid-area: suvs;
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  grid-area: luxury;
+  background-color: hsl(179, 100%, 13%);
+}
+
+.center-cards {
+  display: grid;
+  grid-template:
+  "sedans   suvs     luxury" 50rem /
+   30.7rem  30.7rem  30.7rem;
+}
