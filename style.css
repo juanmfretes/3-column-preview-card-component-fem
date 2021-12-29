@@ -38,7 +38,52 @@ body {
 
 .center-cards {
   display: grid;
+  margin-top: 4.2rem;
+  border-radius: 0.8rem;
+  overflow: hidden;
   grid-template:
   "sedans   suvs     luxury" 50rem /
    30.7rem  30.7rem  30.7rem;
+}
+
+.card {
+  padding: 4.8rem;
+}
+
+.icon {
+  display: inline-block;
+  margin-bottom: 3.2rem;
+}
+
+.card-heading {
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-family: 'Big Shoulders Display', sans-serif;
+  color: hsl(0, 0%, 95%);
+  margin-bottom: 2.5rem;
+}
+
+.card-text {
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.65;
+  margin-bottom: 8.3rem;
+}
+
+.learn-more {
+  display: inline-block;
+  padding: 1.45rem 3.2rem;
+  border-radius: 5rem;
+  background-color:hsl(0, 0%, 95%);
+}
+
+.learn-more--sedan {
+  color:hsl(31, 77%, 52%);
+}
+
+.learn-more--suvs {
+  color:hsl(184, 100%, 22%);
+}
+
+.learn-more--luxury {
+  color:hsl(179, 100%, 13%);
 }
