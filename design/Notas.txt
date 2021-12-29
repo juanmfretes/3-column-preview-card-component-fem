@@ -1,1 +1,3 @@
 Cada columna mide 307px ancho, y 500px de alto
+
+El font-weight del "card-text" es 300 (no 400 como dice la indicación)
