@@ -1,0 +1,13 @@
+/* Media queries */
+
+/* 375px / 16 = 23.4 -> 23.5 em */
+
+@media (max-width: 23.5em) {
+  .center-cards {
+    grid-template:
+    "sedans"  50rem
+    "suvs"    50rem
+    "luxury"  50rem /
+    30.7rem;
+  }
+}
