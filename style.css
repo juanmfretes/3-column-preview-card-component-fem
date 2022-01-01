@@ -1,113 +1,119 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 html {
-  font-size: 62.5%;
+	font-size: 62.5%;
 }
 
 body {
-  font-family: 'Lexend Deca', sans-serif;
-  font-size: 1.5rem;
-  background-color: hsl(0, 0%, 95%);
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 1.5rem;
+	background-color: hsl(0, 0%, 95%);
 }
 
 .container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
 }
 
 .sedans {
-  grid-area: sedans;
-  background-color: hsl(31, 77%, 52%);
+	grid-area: sedans;
+	background-color: hsl(31, 77%, 52%);
 }
 
 .suvs {
-  grid-area: suvs;
-  background-color: hsl(184, 100%, 22%);
+	grid-area: suvs;
+	background-color: hsl(184, 100%, 22%);
 }
 
 .luxury {
-  grid-area: luxury;
-  background-color: hsl(179, 100%, 13%);
+	grid-area: luxury;
+	background-color: hsl(179, 100%, 13%);
 }
 
 .center-cards {
-  display: grid;
-  margin-top: 4.2rem;
-  border-radius: 0.8rem;
-  overflow: hidden;
-  grid-template:
-  "sedans   suvs     luxury" 50rem /
-   30.7rem  30.7rem  30.7rem;
+	display: grid;
+	margin-top: 4.2rem;
+	border-radius: 0.8rem;
+	overflow: hidden;
+	grid-template: "sedans   suvs     luxury" 50rem / 30.7rem 30.7rem 30.7rem;
 }
 
-.card {
-  padding: 4.8rem;
+section {
+	padding: 4.8rem;
 }
 
 .icon {
-  display: inline-block;
-  margin-bottom: 3.2rem;
+	display: inline-block;
+	margin-bottom: 3.2rem;
 }
 
-.card-heading {
-  text-transform: uppercase;
-  font-size: 4rem;
-  font-family: 'Big Shoulders Display', sans-serif;
-  color: hsl(0, 0%, 95%);
-  margin-bottom: 2.5rem;
+h1 {
+	text-transform: uppercase;
+	font-size: 4rem;
+	font-family: 'Big Shoulders Display', sans-serif;
+	color: hsl(0, 0%, 95%);
+	margin-bottom: 2.5rem;
 }
 
 .card-text {
-  color: hsla(0, 0%, 100%, 0.75);
-  line-height: 1.65;
-  margin-bottom: 8.3rem;
+	color: hsla(0, 0%, 100%, 0.75);
+	line-height: 1.65;
+	margin-bottom: 8.3rem;
 }
 
-.learn-more:link, .learn-more:visited {
-  display: inline-block;
-  text-decoration: none;
-  padding: 1.45rem 3.2rem;
-  border-radius: 5rem;
-  background-color:hsl(0, 0%, 95%);
-  transition: all 0.2s;
+.learn-more:link,
+.learn-more:visited {
+	display: inline-block;
+	text-decoration: none;
+	padding: 1.45rem 3.2rem;
+	border-radius: 5rem;
+	background-color: hsl(0, 0%, 95%);
+	transition: all 0.2s;
 }
 
-.learn-more:hover, .learn-more:active {
-  box-shadow: inset 0 0 0 2px hsl(0, 0%, 95%);
+.learn-more:hover,
+.learn-more:active {
+	box-shadow: inset 0 0 0 2px hsl(0, 0%, 95%);
 }
 
-.learn-more--sedan:link, .learn-more--sedan:visited {
-  color:hsl(31, 77%, 52%);
-  transition: all 0.2s;
+.learn-more--sedan:link,
+.learn-more--sedan:visited {
+	color: hsl(31, 77%, 52%);
+	transition: all 0.2s;
 }
 
-.learn-more--sedan:hover, .learn-more--sedan:active {
-  background-color:hsl(31, 77%, 52%);
-  color: hsl(0, 0%, 95%);
+.learn-more--sedan:hover,
+.learn-more--sedan:active {
+	background-color: hsl(31, 77%, 52%);
+	color: hsl(0, 0%, 95%);
 }
 
-.learn-more--suvs:link, .learn-more--suvs:visited {
-  color:hsl(184, 100%, 22%);
-  transition: all 0.2s;
+.learn-more--suvs:link,
+.learn-more--suvs:visited {
+	color: hsl(184, 100%, 22%);
+	transition: all 0.2s;
 }
 
-.learn-more--suvs:hover, .learn-more--suvs:active {
-  background-color:hsl(184, 100%, 22%);
-  color: hsl(0, 0%, 95%);
+.learn-more--suvs:hover,
+.learn-more--suvs:active {
+	background-color: hsl(184, 100%, 22%);
+	color: hsl(0, 0%, 95%);
 }
 
-.learn-more--luxury:link, .learn-more--luxury:visited {
-  color:hsl(179, 100%, 13%);
-  transition: all 0.2s;
+.learn-more--luxury:link,
+.learn-more--luxury:visited {
+	color: hsl(179, 100%, 13%);
+	transition: all 0.2s;
 }
 
-.learn-more--luxury:hover, .learn-more--luxury:active {
-  background-color:hsl(179, 100%, 13%);
-  color: hsl(0, 0%, 95%);
+.learn-more--luxury:hover,
+.learn-more--luxury:active {
+	background-color: hsl(179, 100%, 13%);
+	color: hsl(0, 0%, 95%);
 }
